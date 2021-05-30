@@ -158,10 +158,16 @@ main {
 /* About Me text */
 .info-about p {
     font-size: 110%;
-    margin: 10px;
+    margin: 30px;
     font-weight: bold;
     color: var(--text-dark);
     font-family: var(--domine);
+    text-align: justify;
+}
+
+.this-other-column {
+    max-width: 1%;
+    flex: 1 0 1%;
 }
 
 /* Work section */
@@ -179,8 +185,8 @@ main {
 
 /* Work section - Set behavior of individual cards */
 .card {
-    max-width: 50%;
-    flex: 1 0 50%;
+    max-width: 48%;
+    flex: 1 0 48%;
     position: relative;
     margin-bottom: 10px;
     height: auto;
@@ -196,8 +202,8 @@ main {
 
 /* Work section - Set behavior of special card that takes us more space */
 #special-card {
-    max-width: 100%;
-    flex: 1 0 100%;
+    max-width: 96%;
+    flex: 1 0 96%;
 }
 
 /* Work section - Set behavior of images */
@@ -221,6 +227,11 @@ main {
 .card-header:hover {
     border: 2px solid blue;
     box-shadow: 2px 2px 2px blueviolet;
+}
+
+.my-other-column {
+    max-width: 4%;
+    flex: 1 0 4%;
 }
 
 /* Contact info section */
@@ -309,8 +320,8 @@ footer p {
 /* Behaviior at 992px or smaller */
 @media screen and (max-width: 992px) {
     .card {
-        max-width: 100%;
-        flex: 1 0 100%;
+        max-width: 96%;
+        flex: 1 0 96%;
     }
     .info-contact ul, .info-contact li {
         display: block;
