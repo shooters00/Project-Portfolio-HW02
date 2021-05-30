@@ -15,7 +15,7 @@
 <body>
     <!-- Header -->
     <header>
-        <section class="top-section">
+    <section class="top-section">
             <h1>Edward Fatula</h1>
             <!-- Navbar -->
             <nav class="links">
@@ -23,25 +23,24 @@
                     <li><a href="#info-about">About Me</a></li>
                     <li><a href="#info-work">Work</a></li>
                     <li><a href="#info-contact">Contact Me</a></li>
-                    <li><a href="./assets/files/20181128 - Edward Fatula Resume (edit).pdf">Resume</a></li>
+                    <li><a href="./assets/files/20181128 - Edward Fatula Resume (edit).pdf" target="_blank">Resume</a></li>
                 </ul>
             </nav>
         </section>
         <section class="background">
-            <div class="image">
-            <!-- Background Image in CSS -->
+            <div class="back-pic">
+                <!-- Background Image in CSS -->
             </div>
-            <img src="assets/images/IMG_6723  4x5x100.jpg" alt="Image of the page author">
+            <!-- Author photo -->
+            <img src="assets/images/IMG_6723  4x5x100.jpg " alt="Page author">
             <h2>Welcome to my portfolio!</h2>
         </section>
-        <aside>
-            <!-- Aside for box shadow -->
-        </aside>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section class="info-about">
+        <!-- About Me Section -->
+        <section class="info-about" id="info-about">
             <h2>About Me</h2>
             <p>Detail-driven engineer with over 20 years of experience as a project, program, and technical lead.  
                 Engineering experience encompassing systems architecture, requirements analysis, design, integration, 
@@ -51,54 +50,75 @@
                 customers.  Highly successful leader of process improvement and organizational change.</p>
         </section>
 
-  <!-- Product Cards -->
-        <section class="info-work">
+  <!-- Project Cards Section -->
+        <section class="info-work" id="info-work">
             <h2>Work</h2>
+            <!-- Individual project cards. -->
             <section class="all-cards">
                 <section class="card" id="special-card">
+                        <a href="https://shooters00.github.io/02-Homework-CodeRefactor/" target="_blank">
+                            <img src="assets/images/CodeRefactor.png" alt="Project 1 Code Refactor" />
+                        </a>
                     <section class="card-header">
-                        <img src="https://www.fillmurray.com/1000/400" alt="This is an image of project 1." />
-                        <h3>Surf Report</h3>
-                        <p>MERN Stack</p>
+                        <h3>Code Refactor</h3>
+                        <p>HTML/CSS</p>
                     </section>
                 </section>
                 <section class="card">
-                    <img src="https://www.fillmurray.com/500/200" alt="This is an image of project 2." />
-                    <h3>LED Wall</h3>
-                    <p>Node/IoT</p>
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="https://www.fillmurray.com/500/200" alt="This is project 2." />
+                    </a>
+                    <section class="card-header">
+                        <h3>Password Generator</h3>
+                        <p>Project 2</p>
+                    </section>
                 </section>
                 <section class="card">
-                    <img src="https://www.fillmurray.com/500/200" alt="This is an image of project 3." />
-                    <h3>Calculator</h3>
-                    <p>React/JavaScript/CSS</p>
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="https://www.fillmurray.com/500/200" alt="This is project 3." />
+                    </a>
+                    <section class="card-header">
+                        <h3>Day Planner</h3>
+                        <p>Project 3</p>
+                    </section>
                 </section>
                 <section class="card">
-                    <img src="https://www.fillmurray.com/500/200" alt="This is an image of project 4." />
-                    <h3>Pastel Puzzels</h3>
-                    <p>MERN Stack</p>
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="https://www.fillmurray.com/500/200" alt="This is project 4." />
+                    </a>
+                    <section class="card-header">
+                        <h3>Weather Dashboard</h3>
+                        <p>Project 4</p>
+                    </section>
                 </section>
                 <section class="card">
-                    <img src="https://www.fillmurray.com/500/200" alt="This is an image of project 5." />
-                    <h3>Run Buddy</h3>
-                    <p>HTML/CSS</p>
+                    <a href="https://www.google.com/" target="_blank">
+                        <img src="https://www.fillmurray.com/500/200" alt="This is project 5." />
+                    </a>
+                    <section class="card-header">
+                        <h3>README Generator</h3>
+                        <p>Project 5</p>
+                    </section>
                 </section>
             </section>
         </section>
 
-        <section class="info-contact">
+        <!-- Contact Information Section -->
+        <section class="info-contact" id="info-contact">
             <h2>Contact Me</h2>
             <ul>
                 <li><a href="tel:240-555-5555">Call: 240-555-5555</a></li>
                 <li><a href="mailto: edwardfatula@msn.com">Email: edwardfatula@msn.com</a></li>
-                <li><a href="https://github.com/shooters00">My Github</a></li>
+                <li><a href="https://github.com/shooters00" target="_blank">My Github</a></li>
             </ul>
-            <h3 id="fake-column"></h2>
+            <h3 class="another-column"></h3>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <h2>This page created as part of the Johns Hopkins University Full Stack Development Boot Camp.</h2>
-        <p>Content in progress</p>
+        <h2></h2>
+        <p>This page created as part of the Johns Hopkins University Full Stack Development Boot Camp.</p>
+        <h3 class="another-column"></h3>
     </footer>
 </body>
