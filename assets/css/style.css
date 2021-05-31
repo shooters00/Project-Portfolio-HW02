@@ -328,6 +328,12 @@ footer p {
     .info-contact ul, .info-contact li {
         display: block;
     }
+
+        /* Change About Me text */
+        .info-about p {
+            font-size: 100%;
+            line-height: 1;
+        }
 }
   
   /* Behavior at 768px or smaller */
@@ -353,7 +359,7 @@ footer p {
 
     /* Change About Me text */
     .info-about p {
-        font-size: 80%;
+        font-size: 100%;
         line-height: 1;
         margin: 10px;
         font-weight: normal;
