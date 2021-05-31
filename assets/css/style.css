@@ -348,7 +348,10 @@ footer p {
     }
 
     .info-about p {
-        font-size: 90%;
+        font-size: 80%;
+        line-height: 1;
+        margin: 10px;
+        font-weight: normal;
     }
 
     footer p {
