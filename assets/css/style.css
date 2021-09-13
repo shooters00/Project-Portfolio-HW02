@@ -209,14 +209,14 @@ main {
 /* Work section - Set behavior of images */
 .card img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 /* Work section - Set behavior of card header */
 .card-header {
     position: absolute;
     left: 0px;
-    bottom: 40px;
+    bottom: 10px;
     border: 2px solid var(--light-back);
     padding: 5px;
     background-color: var(--light-back);
