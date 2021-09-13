@@ -9,10 +9,4 @@
 
 ### Screenshots of project:
 #### Desktop View
-![Project Portfolio](https://user-images.githubusercontent.com/80861572/120112254-138e6200-c143-11eb-8d07-389edbf990ec.png)
-
-#### Tablet View
-![Project Portfolio Tablet](https://user-images.githubusercontent.com/80861572/120229984-5d974680-c21c-11eb-91e7-c68c9f6c2987.png)
-
-#### Mobile View
-![Project Portfolio Mobile](https://user-images.githubusercontent.com/80861572/120229973-55d7a200-c21c-11eb-8bbf-742be2bcd9b6.png)
+![Project Portfolio](https://user-images.githubusercontent.com/80861572/133007952-d706ff59-8728-4e53-ac1b-7bffeaffea3c.png)
