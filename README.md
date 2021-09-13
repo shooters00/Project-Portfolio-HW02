@@ -9,4 +9,5 @@
 
 ### Screenshots of project:
 #### Desktop View
-![Project Portfolio](https://user-images.githubusercontent.com/80861572/133007952-d706ff59-8728-4e53-ac1b-7bffeaffea3c.png)
+![Project Portfolio](https://user-images.githubusercontent.com/80861572/133007992-849443bf-8592-40f5-9ce9-65f8f9e9e88a.png)
+
